@@ -7,3 +7,7 @@ resilience4j.circuitbreaker:
       slidingWindowSize: 10
       waitDurationInOpenState: 50s
       permittedNumberOfCallsInHalfOpenState: 3
+      
+application:
+  url: ${SVC_API_HOSTNAME}
+  port: ${SVC_API_PORT}
