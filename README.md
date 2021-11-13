@@ -4,11 +4,11 @@
 Observando el comportamiento del servicio que vamos  consumir  se implementa   una solución  basada en  el patrón Circuit Breaker. 
 Este  nos brinda   la facilidad de   manejar las  fallas  ocasionadas  por la  falta de disponibilidad en la  comunicación entre servicios   esto  lo hace simulando  un interruptor  eléctrico, el  flujo  parte de tres  estados:
 
-Closed: El circuito está cerrado y el flujo fluye ininterrumpidamente estado inicial.
+<b>Closed:</b> El circuito está cerrado y el flujo fluye ininterrumpidamente estado inicial.
 
-Open: El circuito está abierto y el flujo interrumpido devolviendo la ultima excepción.
+<b>Open:</b> El circuito está abierto y el flujo interrumpido devolviendo la ultima excepción.
 
-Half-Open: El circuito está medio abierto (o medio cerrado) dando una oportunidad al flujo para su restauración
+</b>Half-Open:</b> El circuito está medio abierto (o medio cerrado) dando una oportunidad al flujo para su restauración
 
 ![Diagrama componentes!](./patron-circuit-breck-diagrama-flujo.svg "Diagrama de Solución")
 
