@@ -1,9 +1,17 @@
+server:
+  port: 5000
+management:
+  endpoints:
+    web:
+      base-path: /
+      path-mapping:
+        health: healthz
 resilience4j.circuitbreaker:
   instances:
-    inventory-service:
-      failureRateThreshold: 50
+    api-service:
+      failureRateThreshold: 80
       minimumNumberOfCalls: 20
       slidingWindowType: TIME_BASED
       slidingWindowSize: 10
-      waitDurationInOpenState: 50s
-      permittedNumberOfCallsInHalfOpenState: 3
+      waitDurationInOpenState: 90s
+      permittedNumberOfCallsInHalfOpenState: 5
