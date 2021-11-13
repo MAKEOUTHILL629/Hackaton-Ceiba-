@@ -13,9 +13,15 @@ Este  nos brinda   la facilidad de   manejar las  fallas  ocasionadas  por la  f
 ![Diagrama componentes!](./patron-circuit-breck-diagrama-flujo.svg "Diagrama de Solución")
 
 ## Drivers que orientan la toma de decisiones para la solución propuesta
-<b>  </b>
-## Diagrama de solución
+<i> Rendimiento </i>
+<br>
+<i> Estabilidad </i>
+<br>
+<i> Adaptabilidad </i>
+
+![Diagrama componentes1!](./digrama-componetes.svg "Diagrama de Solución")
 
 | Elemento | Descripción |
 | :----    | :---        | 
-| DB | Guardar datos |    
+| demo-services | implemeta la llamada al servico |  
+| circuit  braacker|  implemeta el aislamiento a fallas  |
