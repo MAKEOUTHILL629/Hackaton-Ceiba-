@@ -24,7 +24,7 @@ public class ApiService implements IApiService{
 	@Cacheable(value = "books", unless = "#result == null")
     public CompletableFuture<Object> getApi(Integer number) {
 			RestTemplate restTemplate = new RestTemplate();
-			Object foo = restTemplate.getForObject(serverURL+":"+serverPort+"/number="+number, Object.class);
+			Object foo = restTemplate.getForObject("http://api-9.hack.local/number="+number, Object.class);
 			log.info("ejecutando la API");
 	        return CompletableFuture.completedFuture(foo);
 		
