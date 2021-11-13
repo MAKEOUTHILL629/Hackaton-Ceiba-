@@ -1,4 +1,6 @@
 FROM gradle:7.2.0-jdk11 as builder
+ENV  SVC_API_HOSTNAME /
+ENV  SVC_API_PORT /
 WORKDIR /usr/src/app
 COPY --chown=gradle:gradle . /usr/src/app
 WORKDIR /usr/src/app
