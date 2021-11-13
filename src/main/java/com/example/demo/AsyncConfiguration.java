@@ -18,7 +18,7 @@ public class AsyncConfiguration extends AsyncConfigurerSupport{
         //For Spring
     }
  
-    @Override
+    @Override 
     public Executor getAsyncExecutor() {
         final ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
         executor.setCorePoolSize(2);
