@@ -15,7 +15,7 @@ public class DemoApplication {
 	}
 	
 	@CacheEvict(allEntries = true, cacheNames = { "books" })
-	@Scheduled(fixedDelay = 40000)
+	@Scheduled(fixedDelay = 44000)
 	public void cacheEvict() {
 	}
 
