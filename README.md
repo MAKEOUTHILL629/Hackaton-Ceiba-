@@ -13,9 +13,7 @@ Este  nos brinda   la facilidad de   manejar las  fallas  ocasionadas  por la  f
 ![Diagrama componentes!](./patron-circuit-breck-diagrama-flujo.svg "Diagrama de Solución")
 
 ## Drivers que orientan la toma de decisiones para la solución propuesta
-
-Enumere los drivers de arquitectura (requisitos no funcionales) que su equipo tuvo en cuenta en la solución propuesta. P.ej: Seguridad, Usabilidad, etc.
-
+<b>  </b>
 ## Diagrama de solución
 
 | Elemento | Descripción |
